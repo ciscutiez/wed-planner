@@ -31,7 +31,7 @@ npm run storybook
 ```
 Access Storybook at http://localhost:6006.
 
-Testing
+## Testing
 Run the test suite with:
 
 ```bash
