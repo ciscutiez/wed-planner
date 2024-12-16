@@ -9,9 +9,10 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test": "jest"
+    "test": "jest --passWithNoTests"
   },
   "dependencies": {
+    "@radix-ui/react-slot": "^1.1.1",
     "@supabase/supabase-js": "^2.47.8",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
