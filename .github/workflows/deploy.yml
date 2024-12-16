@@ -30,8 +30,5 @@ jobs:
       - name: Type Check
         run: pnpm tsc --noEmit
 
-      - name: Build Storybook
-        run: pnpm storybook
-
       - name: Build PNPM Assets
         run: pnpm build
