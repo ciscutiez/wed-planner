@@ -9,7 +9,7 @@
     "lint": "next lint",
     "storybook": "storybook dev -p 6006",
     "build-storybook": "storybook build",
-    "test": "jest"
+    "test": "jest --coverage"
   },
   "dependencies": {
     "@radix-ui/react-slot": "^1.1.1",
