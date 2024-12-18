@@ -68,14 +68,14 @@ export default function UpdateProfileInformation() {
                 </Alert>
             {/* )} */}
 
-            {status === "verification-link-sent" && (
+            {/* {status === "verification-link-sent" && ( */}
                 <Alert>
                     <AlertDescription>
                         A new verification link has been sent to your email
                         address.
                     </AlertDescription>
                 </Alert>
-            )}
+            {/* )} */}
 
             <Button type="submit" className="bg-stone-800" >
                 Save Changes

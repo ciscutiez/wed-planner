@@ -1,16 +1,16 @@
 'use client'
 
 import { useState } from 'react'
-// import { Head } from "@inertiajs/react"
+
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
+import UpdateProfileInformation from '@/components/Form/UpdateProfile'
+import UpdatePasswordForm from '@/components/Form/UpdatePassword'
+import DeleteUserForm from '@/components/Form/DeleteUser'
 
-// import UpdateProfileInformationForm from "./Partials/UpdateProfileInformationForm"
-// import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout'
-// import DeleteUserForm from './Partials/DeleteUserForm'
-// import UpdatePasswordForm from './Partials/UpdatePasswordForm'
 
-export default function ProfilePage({ mustVerifyEmail, status }) {
+
+export default function ProfilePage() {
   const [activeTab, setActiveTab] = useState('account')
 
   return (
@@ -33,9 +33,9 @@ export default function ProfilePage({ mustVerifyEmail, status }) {
             </TabsList>
             <div className="mt-6">
               <TabsContent value="account">
-                <UpdateProfileInformationForm
-                  mustVerifyEmail={mustVerifyEmail}
-                  status={status}
+                <UpdateProfileInformation
+                  // mustVerifyEmail={mustVerifyEmail}
+                  // status={status}
                 />
               </TabsContent>
               <TabsContent value="password">

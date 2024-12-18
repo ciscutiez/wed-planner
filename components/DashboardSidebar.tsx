@@ -24,7 +24,7 @@ import {
   SidebarGroupLabel,
 } from '@/components/ui/sidebar';
 import Link from 'next/link';
-import { usePathname } from 'next/navigation';
+
 
 // Define an array of routes for the sidebar
 const links = [
@@ -44,7 +44,7 @@ const settingsLinks = [
 ];
 
 export function DashboardSidebar() {
-  const pathname = usePathname();
+
 
   return (
     <Sidebar className='bg-pink-50 text-pink-800 w-64 min-h-screen'>

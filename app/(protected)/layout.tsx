@@ -1,5 +1,5 @@
 import { DashboardSidebar } from '@/components/DashboardSidebar';
-import { SidebarProvider } from '@/components/ui/sidebar';
+
 
 export default function ProtectedLayout({
   children,
