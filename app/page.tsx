@@ -9,6 +9,8 @@ export default function Home() {
       <Button variant='ghost'>Button</Button>
       <Button variant='link'>Button</Button>
       <Button variant='secondary'>Button</Button>
+      <Button variant='pink'>Button</Button>
+      <Button variant='white' >Button</Button>
     </PinkLayout>
   );
 }
