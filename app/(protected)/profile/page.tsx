@@ -4,9 +4,9 @@ import { useState } from 'react'
 
 import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
 import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import UpdateProfileInformation from '@/components/Form/UpdateProfile'
-import UpdatePasswordForm from '@/components/Form/UpdatePassword'
-import DeleteUserForm from '@/components/Form/DeleteUser'
+import UpdateProfileInformation from '@/components/Form/update-profile'
+import UpdatePasswordForm from '@/components/Form/update-password'
+import DeleteUserForm from '@/components/Form/delete-user'
 
 
 
