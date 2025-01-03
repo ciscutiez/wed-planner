@@ -1,4 +1,4 @@
-import DeleteUserForm from '@/components/Form/DeleteUser';
+import DeleteUserForm from '@/components/Form/delete-user';
 import { Card } from '@/components/ui/card';
 
 import { Meta, StoryObj } from '@storybook/react';
