@@ -1,4 +1,4 @@
-import UpdatePasswordForm from '@/components/Form/UpdatePassword';
+import UpdatePasswordForm from '@/components/Form/update-password';
 
 
 import { Meta, StoryObj } from '@storybook/react';
