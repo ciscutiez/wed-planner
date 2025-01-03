@@ -1,4 +1,4 @@
-import { DashboardSidebar } from '@/components/DashboardSidebar';
+import { DashboardSidebar } from '@/components/Custom/DashboardSidebar';
 import { SidebarProvider } from '@/components/ui/sidebar';
 import { Meta, StoryObj } from '@storybook/react';
 
