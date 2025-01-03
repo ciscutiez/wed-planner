@@ -1,4 +1,4 @@
-import { DashboardSidebar } from '@/components/DashboardSidebar';
+import { DashboardSidebar } from '@/components/Custom/DashboardSidebar';
 
 
 export default function ProtectedLayout({
