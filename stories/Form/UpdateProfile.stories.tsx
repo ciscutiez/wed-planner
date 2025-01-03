@@ -1,4 +1,4 @@
-import UpdateProfileInformation from '@/components/Form/UpdateProfile';
+import UpdateProfileInformation from '@/components/Form/update-profile';
 
 import { Meta, StoryObj } from '@storybook/react';
 
